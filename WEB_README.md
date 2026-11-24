@@ -4,7 +4,7 @@ Companion to *Metastability of a stochastic competitive model with large phenoty
 
 ## Open locally
 
-Open `docs/index.html` in a modern browser. The page is self-contained: no CDN, Python, package installation, backend or external requests. The calculations run in a Web Worker. If a browser blocks workers on `file://`, serve the folder locally instead:
+Open `index.html` in a modern browser. The page is self-contained: no CDN, Python, package installation, backend or external requests. The calculations run in a Web Worker. If a browser blocks workers on `file://`, serve the folder locally instead:
 
 ```sh
 python3 -m http.server 8000
@@ -14,9 +14,9 @@ Then open `http://localhost:8000/`.
 
 ## Publish on GitHub Pages
 
-1. Add the `docs/index.html` file to the `main` branch of the existing `metastability-structured-populations` repository (preserve the `docs/` directory).
+1. Add the `index.html` file to the `main` branch of the existing `metastability-structured-populations` at the repository root.
 2. Open the repository **Settings → Pages**.
-3. Under Build and deployment, choose **Deploy from a branch**, branch **main**, folder **/docs**; click **Save**.
+3. Under Build and deployment, choose **Deploy from a branch**, branch **main**, folder **/ (root)**; click **Save**.
 4. The Pages settings will display the public URL once the deployment is complete. For the account `gaelraoul` and that repository name it would be `https://gaelraoul.github.io/metastability-structured-populations/`.
 
 ## Using the simulator
