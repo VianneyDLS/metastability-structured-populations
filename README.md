@@ -6,7 +6,7 @@ Simulation code accompanying the manuscript **Metastability of a stochastic comp
 
 - [Python simulation and plotting code](simulate.py)
 - [Publication parameters and reproduction settings](PUBLICATION_PARAMETERS.md)
-- [Interactive browser simulator](docs/index.html) (open locally or deploy through GitHub Pages)
+- [Interactive browser simulator](index.html) (open locally or deploy through GitHub Pages)
 - [Browser instructions and deployment](WEB_README.md)
 - [Example outputs, figures and CSV data](examples/README.md)
 - [Numerical validation tests](test_simulate.py)
@@ -86,4 +86,4 @@ The default full-scale runs were also executed successfully during preparation: 
 
 ## Interactive browser version
 
-Open `docs/index.html` in your browser or publish the `docs` folder using GitHub Pages. See [WEB_README.md](WEB_README.md) for setup, numerical methods, parameters and limitations. The browser implementation is exploratory and independent of the Python solver.
+Open `index.html` in your browser or publish the root directory using GitHub Pages. See [WEB_README.md](WEB_README.md) for setup, numerical methods, parameters and limitations. The browser implementation is exploratory and independent of the Python solver.
