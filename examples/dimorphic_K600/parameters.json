@@ -1,0 +1,15 @@
+{
+  "A": 1.5,
+  "K": 600,
+  "final_time": 1000,
+  "snapshots": [
+    1000.0
+  ],
+  "seed": 20261125,
+  "grid_size": 801,
+  "record_step": 1.0,
+  "events": 4573805,
+  "eta": 0.05,
+  "rtol": 1e-07,
+  "atol": 1e-10
+}
