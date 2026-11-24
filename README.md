@@ -10,7 +10,7 @@ Simulation code accompanying the manuscript **Metastability of a stochastic comp
 
 - [Python simulation and plotting code](simulate.py)
 - [Publication parameters and reproduction settings](PUBLICATION_PARAMETERS.md)
-- [Interactive browser simulator](index.html) (open locally or deploy through GitHub Pages)
+- [Interactive browser simulator](https://vianneydls.github.io/metastability-structured-populations/) (run simulations directly in your browser)
 - [Browser instructions and deployment](WEB_README.md)
 - [Example outputs, figures and CSV data](examples/README.md)
 - [Numerical validation tests](test_simulate.py)
