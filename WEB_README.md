@@ -17,7 +17,7 @@ Then open `http://localhost:8000/`.
 1. Add the `index.html` file to the `main` branch of the existing `metastability-structured-populations` at the repository root.
 2. Open the repository **Settings → Pages**.
 3. Under Build and deployment, choose **Deploy from a branch**, branch **main**, folder **/ (root)**; click **Save**.
-4. The Pages settings will display the public URL once the deployment is complete. For the account `gaelraoul` and that repository name it would be `https://gaelraoul.github.io/metastability-structured-populations/`.
+4. The interactive simulator is available at https://vianneydls.github.io/metastability-structured-populations/
 
 ## Using the simulator
 
@@ -35,4 +35,4 @@ For x,y in [-1,1], a(x)=A-x², b(x)=1+a(x), d(x)=1, and c(x,y)=1/(1+(x-y)²). Th
 
 ## Verification
 
-The page was exercised in headless Chromium with uniform, bimodal and custom initial profiles; the default K=600, A=1.5, T=100 experiment completed. Initial masses, decreasing deterministic energy on the tested trajectory, nonincreasing surviving traits, seed reproducibility, snapshot indexing, and CSV export were checked. Full article presets have not been benchmarked in the browser. No license is imposed by this addition; choose one with the authors of the repository.
+The page was exercised in headless Chromium with uniform, bimodal and custom initial profiles; the default K=600, A=1.5, T=100 experiment completed. Initial masses, decreasing deterministic energy on the tested trajectory, nonincreasing surviving traits, seed reproducibility, snapshot indexing, and CSV export were checked. Full article presets have not been benchmarked in the browser. The web simulator is distributed under the [MIT License](LICENSE).
