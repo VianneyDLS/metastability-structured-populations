@@ -7,7 +7,7 @@ Companion to *Metastability of a stochastic competitive model with large phenoty
 Open `docs/index.html` in a modern browser. The page is self-contained: no CDN, Python, package installation, backend or external requests. The calculations run in a Web Worker. If a browser blocks workers on `file://`, serve the folder locally instead:
 
 ```sh
-python3 -m http.server 8000 --directory docs
+python3 -m http.server 8000
 ```
 
 Then open `http://localhost:8000/`.
