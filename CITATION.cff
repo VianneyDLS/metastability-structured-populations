@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "Metastability of structured populations: simulation code and interactive web simulator"
+type: software
+authors:
+  - family-names: "Bansaye"
+    given-names: "Vincent"
+  - family-names: "de la Salle"
+    given-names: "Vianney"
+  - family-names: "Raoul"
+    given-names: "Gaël"
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/vianneydls/metastability-structured-populations"
+url: "https://vianneydls.github.io/metastability-structured-populations/"
+abstract: >
+  Python simulation code and interactive web simulator
+  accompanying the article "Metastability of a stochastic
+  competitive model with large phenotypic diversity".
+  The software implements an individual-based stochastic
+  population model with non-local competition and its
+  deterministic large-population limit.
+keywords:
+  - metastability
+  - structured populations
+  - stochastic population dynamics
+  - individual-based models
+  - adaptive dynamics
+  - Gillespie algorithm
