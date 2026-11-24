@@ -84,7 +84,7 @@ Tests check ESD stationarity, direct energy versus incrementally calculated ener
 
 ## Attribution and license
 
-The code is adapted from the supplied `Useful_functions.py` and the manuscript's numerical section. The original function used a global K, modified the initial counts in place, and recorded the state at an inconsistent event time; the replacement uses explicit K, independent arrays and correct holding times. The original ESD formulas and energy functional are retained. Choose a software license with the authors and relevant rights holders before public distribution; none is assigned here. Update the manuscript citation with the final DOI when available.
+The code is adapted from the supplied `Useful_functions.py` and the manuscript's numerical section. The original function used a global K, modified the initial counts in place, and recorded the state at an inconsistent event time; the replacement uses explicit K, independent arrays and correct holding times. The original ESD formulas and energy functional are retained. This software is distributed under the [MIT License](LICENSE).
 
 The default full-scale runs were also executed successfully during preparation: 74,920,948 exact jumps (monomorphic), 4,573,805 (dimorphic K=600), and 233,669,827 (dimorphic K=10000). All three unit tests passed. These checks are not a statistical validation over multiple seeds or a grid-convergence study.
 
