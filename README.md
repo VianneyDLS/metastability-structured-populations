@@ -1,6 +1,6 @@
 # Metastability of structured populations
 
-**[Launch the interactive online simulator][![Online simulator](https://img.shields.io/badge/Online%20simulator-Launch-blue)](https://vianneydls.github.io/metastability-structured-populations/)**
+**[Launch the interactive online simulator](https://vianneydls.github.io/metastability-structured-populations/)**
 Explore the stochastic and deterministic population dynamics directly in your browser, with adjustable initial distribution, population size K and growth parameter A.
 
 
