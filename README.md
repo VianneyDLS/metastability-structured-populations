@@ -5,6 +5,7 @@ Explore the stochastic and deterministic population dynamics directly in your br
 
 
 Simulation code accompanying the manuscript **Metastability of a stochastic competitive model with large phenotypic diversity**, by Vincent Bansaye, Vianney de la Salle and Gaël Raoul (Section 4, manuscript dated 24 November 2026).
+
 DOI: https://doi.org/10.5281/zenodo.24526392
 
 ## Repository contents
